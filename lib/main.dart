@@ -51,8 +51,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
       double lat = position.latitude;
       double lon = position.longitude;
 
-      String apiKey =
-          'kode_API_OpenWeatherMap_di_sini'; //Saya hapus Key API nya dari code karena terdetect Gitguardian saat push ke repository
+      String apiKey = 'e106f13559d36f1d6c727c1ab7cb22b5';
       String url =
           'https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$lon&units=metric&appid=$apiKey';
 
